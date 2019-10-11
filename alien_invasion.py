@@ -16,7 +16,7 @@ def run_game():
     screen = pygame.display.set_mode(
         (ai_settings.screen_width, ai_settings.screen_height)
     )
-    pygame.display.set_caption('Space Invaders')
+    pygame.display.set_caption('Pokemon Invasion')
     clock = pygame.time.Clock()
 
     # Setup game stats and scoreboard

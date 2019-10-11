@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c95eb548-b4be-40ed-b053-6fe78a8c8a23" name="Default Changelist" comment="" />
+    <list default="true" id="953b6dfe-850e-4ad0-ac0e-fb5e29061412" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +18,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1RFyIDk9jYiy0wMQBX9x6gzVbbt" />
+  <component name="ProjectId" id="1S2vQ07SknibAQCX27SRyulVinL" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abidb\OneDrive\Documents\GitHub\SpaceInvade" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -37,7 +41,7 @@
   </component>
   <component name="RunManager">
     <configuration name="alien_invasion" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Alien-Invader" />
+      <module name="SpaceInvade" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -68,25 +72,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c95eb548-b4be-40ed-b053-6fe78a8c8a23" name="Default Changelist" comment="" />
-      <created>1569277057323</created>
+      <changelist id="953b6dfe-850e-4ad0-ac0e-fb5e29061412" name="Default Changelist" comment="" />
+      <created>1570774484077</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569277057323</updated>
+      <updated>1570774484077</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
