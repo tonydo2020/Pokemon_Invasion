@@ -43,36 +43,36 @@ class Alien(pygame.sprite.Sprite):
     def initialize_images(self):
         if self.alien_type == 1:
             self.images = [
-                pygame.image.load('images/alien1_1.png'),
-                pygame.image.load('images/alien1_2.png')
+                pygame.image.load('images/alien1_1.bmp'),
+                pygame.image.load('images/alien1_2.bmp')
             ]
             self.death_frames = [
-                pygame.image.load('images/alien_death/alien_purple_death1.png'),
-                pygame.image.load('images/alien_death/alien_purple_death2.png'),
-                pygame.image.load('images/alien_death/alien_purple_death3.png'),
-                pygame.image.load('images/alien_death/alien_purple_death4.png')
+                pygame.image.load('images/alien_death/alien1_death_1.png'),
+                pygame.image.load('images/alien_death/alien1_death_2.png'),
+                pygame.image.load('images/alien_death/alien1_death_3.png'),
+                pygame.image.load('images/alien_death/alien1_death_4.png')
             ]
         elif self.alien_type == 2:
             self.images = [
-                pygame.image.load('images/alien2_1.png'),
-                pygame.image.load('images/alien2_2.png')
+                pygame.image.load('images/alien2_1.bmp'),
+                pygame.image.load('images/alien2_2.bmp')
             ]
             self.death_frames = [
-                pygame.image.load('images/alien_death/alien_blue_death1.png'),
-                pygame.image.load('images/alien_death/alien_blue_death2.png'),
-                pygame.image.load('images/alien_death/alien_blue_death3.png'),
-                pygame.image.load('images/alien_death/alien_blue_death4.png')
+                pygame.image.load('images/alien_death/alien2_death_1.png'),
+                pygame.image.load('images/alien_death/alien2_death_2.png'),
+                pygame.image.load('images/alien_death/alien2_death_3.png'),
+                pygame.image.load('images/alien_death/alien2_death_4.png')
             ]
         else:
             self.images = [
-                pygame.image.load('images/alien3_1.png'),
-                pygame.image.load('images/alien3_2.png')
+                pygame.image.load('images/alien3_1.bmp'),
+                pygame.image.load('images/alien3_2.bmp')
             ]
             self.death_frames = [
-                pygame.image.load('images/alien_death/alien_green_death1.png'),
-                pygame.image.load('images/alien_death/alien_green_death2.png'),
-                pygame.image.load('images/alien_death/alien_green_death3.png'),
-                pygame.image.load('images/alien_death/alien_green_death4.png')
+                pygame.image.load('images/alien_death/alien3_death_1.png'),
+                pygame.image.load('images/alien_death/alien3_death_2.png'),
+                pygame.image.load('images/alien_death/alien3_death_3.png'),
+                pygame.image.load('images/alien_death/alien3_death_4.png')
             ]
         self.image_index = 0
         self.image = self.images[self.image_index]
